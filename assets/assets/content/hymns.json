@@ -8,11 +8,9 @@
     "hymn_count": 501,
     "range": "1–501 (no gaps)",
     "notes": "Lyrics are copied from lista.xlsx; nothing was translated or invented. Slash wrappers (/…/ and //…//) are typographic repeat marks from the book; kept as-is. title_es is the Excel index title, completed from the first Spanish lyric line only when the index title ends in a function word (Cancioneros tomo_lib.full_title rule). The original index title is then in title_es_index. #26 is marked excluded (Coats 1940). #73 is flagged for a possible Celebremos Su Gloria arrangement.",
-    "bundled_hymn_count": 500,
-    "omitted_excluded": [
-      26
-    ],
-    "bundle_note": "Los himnos con excluded:true no se incluyen en la aplicación. Para ocultar otros números, edite assets/config/himnos_ocultos.txt."
+    "bundled_hymn_count": 501,
+    "omitted_excluded": [],
+    "bundle_note": "Los himnos con excluded:true no se incluyen, salvo el 26, que el dueño decidió publicar. Para ocultar un número, edite assets/config/himnos_ocultos.txt."
   },
   "hymns": [
     {
@@ -2092,6 +2090,75 @@
       "copyright_flag": "?",
       "copyright_note": "Coro “Nuestro Padre celestial” – autor no identificado",
       "copyright_source": "hv/work/meta.py"
+    },
+    {
+      "number": 26,
+      "title_qu": "Kay Pachapeqa",
+      "title_es": "En este mundo lleno de dolor",
+      "lyrics_qu": [
+        {
+          "type": "estrofa",
+          "lines": [
+            "Kay pachapeqa llakiylla junt’a.",
+            "May chhika pruebas jamuwan,",
+            "Sajra Supayta atipanaypaj,",
+            "Mana kallpayoj kashajtiy."
+          ]
+        },
+        {
+          "type": "coro",
+          "lines": [
+            "Pimantaj risaj, pillaman risaj?",
+            "Señor Jesusllaman risaj",
+            "Pay salvawarqa, cambiawarqataj;",
+            "Señor Jesusllaman risaj."
+          ]
+        },
+        {
+          "type": "estrofa",
+          "lines": [
+            "Yarkhay, ch’akiypis almaypi tiyan;",
+            "Jesusmin kawsayta qowan.",
+            "Manamin wajpi salvación kanchu;",
+            "Señor Jesusllaman risaj."
+          ]
+        }
+      ],
+      "lyrics_es": [
+        {
+          "type": "estrofa",
+          "lines": [
+            "En este mundo lleno de dolor",
+            "Rodeado estoy de pruebas mil.",
+            "Soy incapaz lidiar con Satanás,",
+            "En esta lucha tan hostil."
+          ]
+        },
+        {
+          "type": "coro",
+          "lines": [
+            "¿A quién iré, oh, a quién iré?",
+            "¿A quién iré sino a Jesús?",
+            "Él me salvó y mi alma transformó.",
+            "¿A quién iré sino a Jesús?"
+          ]
+        },
+        {
+          "type": "estrofa",
+          "lines": [
+            "Hambre y sed en mi alma tengo yo,",
+            "La satisface mi Jesús.",
+            "Y en ningún otro hay salud y paz,",
+            "¿A quién iré sino a Jesús?"
+          ]
+        }
+      ],
+      "source": "lista.xlsx sheets Himnos + Quechua + Español (Himnario Kusiywan Diosman Takinachej, proyecto 2017; print corrections already applied in the Excel)",
+      "printed_key": "Sol Mayor",
+      "excluded": false,
+      "copyright_flag": "excluded © (James B. Coats 1940)",
+      "copyright_note": "Spanish text is “En este mundo lleno de dolor”, James B. Coats 1940 (still copyrighted). Pablo dropped this hymn. Exclude from the app (Quechua is the matching translation).",
+      "copyright_source": "pablo / stage-1 brief"
     },
     {
       "number": 27,

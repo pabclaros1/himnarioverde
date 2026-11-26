@@ -3,10 +3,10 @@
 # Para mostrar un himno otra vez, borre su número o ponga # al inicio.
 # Las líneas que empiezan con # son comentarios.
 #
-# El 26 también está marcado excluded en content/hymns.json
-# (derechos de autor, James B. Coats, 1940). Aunque quite este
-# número, preparar_contenido.py no lo mete en la aplicación.
-26
+# El 26 está incluido (Kay Pachapeqa / En este mundo lleno de dolor).
+# Si aparece un reclamo de derechos de autor, quite el # de la línea
+# de abajo y vuelva a compilar para ocultarlo.
+# 26
 
 # En revisión. Quite el # de la línea para ocultarlos:
 # 73
