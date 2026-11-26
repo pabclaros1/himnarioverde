@@ -1,0 +1,14 @@
+# Himnos que la aplicación no muestra.
+# Escriba un número por línea y vuelva a compilar.
+# Para mostrar un himno otra vez, borre su número o ponga # al inicio.
+# Las líneas que empiezan con # son comentarios.
+#
+# El 26 también está marcado excluded en content/hymns.json
+# (derechos de autor, James B. Coats, 1940). Aunque quite este
+# número, preparar_contenido.py no lo mete en la aplicación.
+26
+
+# En revisión. Quite el # de la línea para ocultarlos:
+# 73
+# 16
+# 8

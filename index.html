@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    La etiqueta base de abajo la completa el comando flutter build web --base-href.
+    El valor tiene que empezar y terminar con /.
+    La copia para publicar usa /himnarioverde/.
+  -->
+  <base href="/himnarioverde/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Himnario Verde: himnos en quechua y español, para leer sin conexión.">
+  <meta name="theme-color" content="#146B3A">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Himnario Verde">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Himnario Verde</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #146B3A;
+      overscroll-behavior: none;
+      -webkit-text-size-adjust: 100%;
+    }
+  </style>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Flutter 3.50 ya no guarda la página. Este registro lo hace,
+    // un momento después, para que no choque con el worker viejo.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          navigator.serviceWorker.register('sw.js').catch(function () {});
+        }, 1500);
+      });
+    }
+  </script>
+</body>
+</html>
