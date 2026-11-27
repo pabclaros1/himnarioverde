@@ -1,5 +1,5 @@
 // Guarda la aplicación en el teléfono para volver a abrirla sin internet.
-const CACHE = 'himnario-verde-v10';
+const CACHE = 'himnario-verde-v11';
 
 const PRECACHE = [
   './',
@@ -22,6 +22,7 @@ const PRECACHE = [
   './assets/FontManifest.json',
   './assets/fonts/MaterialIcons-Regular.otf',
   './assets/assets/content/hymns.json',
+  './assets/assets/content/tonos_himnario_verde.csv',
   './assets/assets/config/himnos_ocultos.txt',
 ];
 
