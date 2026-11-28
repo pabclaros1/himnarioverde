@@ -1,5 +1,5 @@
 // Guarda la aplicación en el teléfono para volver a abrirla sin internet.
-const CACHE = 'himnario-verde-v19';
+const CACHE = 'himnario-verde-v20';
 
 const PRECACHE = [
   './',
@@ -15,6 +15,7 @@ const PRECACHE = [
   './icons/Icon-maskable-192.png',
   './icons/Icon-maskable-512.png',
   './icons/apple-touch-icon.png',
+  './icons/logo-carga.png',
   './canvaskit/canvaskit.js',
   './canvaskit/canvaskit.wasm',
   './assets/AssetManifest.bin',
