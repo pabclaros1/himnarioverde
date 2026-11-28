@@ -96147,7 +96147,7 @@ s=A.hZ(o,A.e_(A.b([r,B.L5,A.aM("Kusiywan Diosman Takinachej",o,o,o,o,A.bA(o,o,l.
 l=n.k3
 r=A.aM("Himnos en quechua del sur de Bolivia y en espa\xf1ol, para leer en la iglesia sin conexi\xf3n a internet.",o,o,o,o,A.bA(o,o,l,o,o,o,o,o,o,o,o,16,o,o,o,o,1.4,!0,o,o,o,o,o,o,o,o),o,o)
 p=n.rx
-return A.hK(m,A.pt(A.b([s,B.a9Z,B.aa1,B.dM,B.aa_,new A.b0(B.SZ,r,o),B.cJ,B.oc,new A.LV(B.Uq,"YouTube","@himnarioverde","https://www.youtube.com/@himnarioverde",o),new A.LV(B.Ui,"Facebook","facebook.com/HimnarioVerde","https://www.facebook.com/HimnarioVerde",o),new A.b0(B.T_,A.aM("Versi\xf3n 1.3.3",o,o,o,o,A.bA(o,o,p==null?l:p,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),o)],q),o),o)}}
+return A.hK(m,A.pt(A.b([s,B.a9Z,B.aa1,B.dM,B.aa_,new A.b0(B.SZ,r,o),B.cJ,B.oc,new A.LV(B.Uq,"YouTube","@himnarioverde","https://www.youtube.com/@himnarioverde",o),new A.LV(B.Ui,"Facebook","facebook.com/HimnarioVerde","https://www.facebook.com/HimnarioVerde",o),new A.b0(B.T_,A.aM("Versi\xf3n 1.3.4",o,o,o,o,A.bA(o,o,p==null?l:p,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),o)],q),o),o)}}
 A.LV.prototype={
 L(a){var s,r=this,q=null,p=A.M(a).ax,o=p.a===B.V?p.b:B.f_
 o=A.dd(r.c,o,q,q)

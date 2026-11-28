@@ -1,5 +1,5 @@
 // Guarda la aplicación en el teléfono para volver a abrirla sin internet.
-const CACHE = 'himnario-verde-v16';
+const CACHE = 'himnario-verde-v17';
 
 const PRECACHE = [
   './',
@@ -51,6 +51,16 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') {
+    return;
+  }
+  // Solo guarda los archivos de la app. Firebase (cuentas y datos) y el
+  // panel de administración (admin/) van siempre por internet.
+  const url = new URL(request.url);
+  const base = new URL('./', self.location.href);
+  if (url.origin !== base.origin || !url.pathname.startsWith(base.pathname)) {
+    return;
+  }
+  if (url.pathname.startsWith(base.pathname + 'admin/')) {
     return;
   }
   event.respondWith(
