@@ -1,5 +1,5 @@
 // Guarda la aplicación en el teléfono para volver a abrirla sin internet.
-const CACHE = 'himnario-verde-v21';
+const CACHE = 'himnario-verde-v22';
 
 const PRECACHE = [
   './',
